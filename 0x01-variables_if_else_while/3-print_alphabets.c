@@ -1,12 +1,15 @@
+
 #include <stdio.h>
 
-
+#include <unistd.h>
 
 /**
 
  * main - Entry point
 
- * Return: Always 0 (Success)
+ * Description: prints alphabet in lowercase then uppercase
+
+ * Return: Always 0 (success)
 
  */
 
@@ -14,17 +17,25 @@ int main(void)
 
 {
 
-char c;
+int ch;
 
 
 
-for (c = a; c <= z; c++)
+for (ch = a; ch <= z; ch++)
 
-putchar(c);
+{
 
-for (c = A; c <= Z; c++)
+putchar(ch);
 
-putchar(c);
+}
+
+for (ch = A; ch <= Z; ch++)
+
+{
+
+putchar(ch);
+
+}
 
 putchar(n);
 
