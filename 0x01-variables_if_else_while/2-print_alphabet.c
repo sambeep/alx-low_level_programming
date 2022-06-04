@@ -3,17 +3,13 @@
 #include <unistd.h>
 /**
 * main - Entry point
-* Description. To prints the alphabet in lowercase
-* Return: Always Zero
+* Description: prints the alphabet in lowercase
+* Return: Always 0
 */
 int main(void)
 {
-
-
 int ch;
-
-for (ch = a; ch <= z; ch++)
-{
+for (ch = a; ch <= z; ch++){
 putchar(ch);
 }
 putchar(n);
