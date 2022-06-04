@@ -9,8 +9,8 @@
 int main(void)
 {
 int ch;
-char a;
-char z;
+int a;
+int z;
 
 for (ch = a; ch <= z; ch++)
 {
