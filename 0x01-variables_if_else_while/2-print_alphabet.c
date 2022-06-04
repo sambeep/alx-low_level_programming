@@ -1,25 +1,22 @@
+
 #include <stdio.h>
+#include <unistd.h>
 /**
-
- * main - Entry point
-
- * Return: Always 0 (Success)
-
- */
+* main - Entry point
+* Description. To prints the alphabet in lowercase
+* Return: Always Zero
+*/
 int main(void)
-
 {
 
-char c;
 
+int ch;
 
-
-for (c = a; c <= z; c++)
-
-putchar(c);
-
+for (ch = a; ch <= z; ch++)
+{
+putchar(ch);
+}
 putchar(n);
-
 return (0);
 }
 
