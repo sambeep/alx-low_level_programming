@@ -9,7 +9,11 @@
 int main(void)
 {
 int ch;
-for (ch = a; ch <= z; ch++){
+char a;
+char z;
+
+for (ch = a; ch <= z; ch++)
+{
 putchar(ch);
 }
 putchar(n);
