@@ -16,7 +16,7 @@ for (ch = a; ch <= z; ch++)
 {
 putchar(ch);
 }
-putchar();
+putchar("\n");
 return (0);
 }
 
