@@ -17,7 +17,7 @@ int main(void)
 
 {
 
-int ch; char a, z;
+char ch; char a, z;
 
 
 
