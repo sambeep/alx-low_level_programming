@@ -15,7 +15,7 @@
 
 int main(void)
 {
-    char c;
+    char a, z, c;
 for (c = a; c <= z; c++)
 
 {
