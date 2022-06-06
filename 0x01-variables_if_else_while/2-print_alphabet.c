@@ -8,7 +8,7 @@ int main(void)
 char alp;
 
 for (apl = a; alp <= z; alp++)
-putchar(letter);
+putchar(alp);
 
 putchar(n);
 
