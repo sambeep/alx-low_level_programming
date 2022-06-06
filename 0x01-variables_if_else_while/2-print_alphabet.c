@@ -5,9 +5,9 @@
 */
 int main(void)
 {
-char letter;
+char alp;
 
-for (letter = a; letter <= z; letter++)
+for (apl = a; alp <= z; alp++)
 putchar(letter);
 
 putchar(n);
