@@ -4,7 +4,9 @@
 #include <stdio.h>
 
 /**
-*Prints if random generated number is +tive, zero or -tive
+*main - main function
+*no description
+*Return: 0
 */
 int main(void)
 {
