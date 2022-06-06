@@ -1,9 +1,9 @@
 
 #include <stdio.h>
 
-#include <unistd.h>
 
-/**
+
+/** 
 
  * main - Entry point
 
@@ -13,16 +13,24 @@
 
  */
 
+
+
 int main(void)
-{
-  int n;  char a, z, c;
-for (c = a; c <= z; c++)
 
 {
-   putchar(c);
-}
-putchar(n);
 
-return (0);
-}
+    char c;
 
+    for (c = a; c <=z; c++)
+
+    {
+
+        putchar(c);
+
+    }
+
+    putchar(n);
+
+return 0;
+
+}
