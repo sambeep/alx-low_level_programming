@@ -1,25 +1,36 @@
+/*header*/
 #include <stdio.h>
-/**
+
+
+
+/** 
 
  * main - Entry point
 
- * Return: Always 0 (Success)
+ * Description: prints the alphabet in lowercase\n
+
+ * Return: Always 0 (success)
 
  */
+
+
+
 int main(void)
 
 {
 
-char c;
+    char c;
 
+    for (c = a; c <=z; c++)
 
+    {
 
-for (c = a; c <= z; c++)
+        putchar(c);
 
-putchar(c);
+    }
 
-putchar(n);
+    putchar(n);
 
-return (0);
+return 0;
+
 }
-

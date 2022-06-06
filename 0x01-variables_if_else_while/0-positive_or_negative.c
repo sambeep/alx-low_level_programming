@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-*Prints if random generated number is +tive, zero or -tive
+*main - main function
+*no description
+*Return: 0
 */
 int main(void)
 {
-
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
@@ -19,5 +19,4 @@ printf("%d is zero\n", n);
 else
 printf("%d is positive\n", n);
 return (0);
-} 
-
+}
