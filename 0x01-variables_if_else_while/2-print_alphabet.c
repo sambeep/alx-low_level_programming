@@ -6,7 +6,7 @@
 int main(void)
 {
 char c;
- int a; int z; int n;
+ char a; char z; char n;
 for (c = a; c <= z; c++)
 putchar(c);
 
