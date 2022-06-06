@@ -1,19 +1,15 @@
 
-/*
-
- * File: 2-print_alphabet.c
- */
 #include <stdio.h>
 
-
+#include <unistd.h>
 
 /**
 
- * main - Prints the alphabet in lowercase.
+ * main - Entry point
 
- *
+ * Description: prints the alphabet in lowercase\n
 
- * Return: Always 0.
+ * Return: Always 0 (success)
 
  */
 
@@ -21,22 +17,20 @@ int main(void)
 
 {
 
-char letter;
+int ch;
 
 
 
-for (letter = a; letter <= z; letter++)
+for (ch = a; ch <= z; ch++)
 
-putchar(letter);
+{
 
+putchar(ch);
 
+}
 
 putchar(n);
-
-
 
 return (0);
 
 }
-
-
