@@ -21,7 +21,7 @@ int ch; char a, z;
 
 
 
-for (ch = a; ch <= z; ch++)
+for (ch = "a"; ch <= "z"; ch++)
 
 {
 
