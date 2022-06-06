@@ -1,9 +1,9 @@
-
+/*header*/
 #include <stdio.h>
 
-#include <unistd.h>
 
-/**
+
+/** 
 
  * main - Entry point
 
@@ -13,24 +13,24 @@
 
  */
 
+
+
 int main(void)
 
 {
 
-char ch;
+    char c;
 
+    for (c = a; c <=z; c++)
 
+    {
 
-for (ch = "a"; ch <= "z"; ch++)
+        putchar(c);
 
-{
+    }
 
-putchar(ch);
+    putchar(n);
 
-}
-
-putchar(n);
-
-return (0);
+return 0;
 
 }
