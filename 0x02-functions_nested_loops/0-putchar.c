@@ -1,10 +1,9 @@
+
+#include <stdio.h>
 #include <unistd.h>
-
-
-
 /**
-* a program that prints _putchar
-* Return: On success 1.
+* _putchar - writes the character c to stdout
+** Return: On success 1.
 * On error, -1 is returned, and errno is set appropriately.
 */
 int _putchar(char c)
