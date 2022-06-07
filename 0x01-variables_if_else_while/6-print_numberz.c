@@ -6,26 +6,18 @@
 
  * main - Entry point
 
- * Description: prints lowercase alphabets
+ * Description: prints char below 10
 
  * Return: Always 0 (success)
 
  */
 
 int main(void)
-
 {
-int ch;
-
-for (ch = a; ch <= z; ch++)
+int a;
+for (a = 0; a < 10; a++)
 {
-if (ch != e && ch != q)
-{
-putchar(ch);
-}
-else
-{
-}
+putchar(a + 0);
 }
 putchar(n);
 return (0);

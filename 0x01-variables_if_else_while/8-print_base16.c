@@ -6,7 +6,7 @@
 
  * main - Entry point
 
- * Description: prints lowercase alphabets
+ * Description: Print base 16 numbers
 
  * Return: Always 0 (success)
 
@@ -15,17 +15,17 @@
 int main(void)
 
 {
-int ch;
+char c;
+char d = 0;
 
-for (ch = a; ch <= z; ch++)
+while (d <= 9)
 {
-if (ch != e && ch != q)
-{
-putchar(ch);
+putchar(d);
+d++;
 }
-else
+for (c = a; c <= f; c++)
 {
-}
+putchar(c)
 }
 putchar(n);
 return (0);
