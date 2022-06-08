@@ -15,6 +15,6 @@ while (a[i] != 0)
 _putchar(a[i]);
 i++;
 }
-_putchar (n);
+_putchar (t);
 return (0);
 }
