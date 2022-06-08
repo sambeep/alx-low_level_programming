@@ -7,7 +7,7 @@
 int main(void)
 {
 char a[] = "_putchar";
-int i; 
+int i; char var;
 /* while loop*/
 i = 0;
 while (a[i] != 0)
@@ -15,6 +15,6 @@ while (a[i] != 0)
 _putchar(a[i]);
 i++;
 }
-_putchar (t);
+_putchar (n);
 return (0);
 }
