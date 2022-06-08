@@ -1,13 +1,9 @@
-void print_alphabet(void);
-void print_alphabet_x10(void);
-int _islower(int c);
-int _isalpha(int c);
-int print_sign(int n);
-int _abs(int);
-int print_last_digit(int);
-7-print_last_digit.c
-void jack_bauer(void);
-void times_table(void);
-int add(int, int);
-void print_to_98(int n);
-
+Prototype: void print_alphabet(void);
+Prototype: void print_alphabet_x10(void);
+Prototype: int _islower(int c);
+Prototype: int _isalpha(int c);
+Prototype: int print_sign(int n);
+Prototype: int _abs(int);
+Prototype: int print_last_digit(int);
+Prototype: void jack_bauer(void);
+Write a function that prints the 9 times table, starting with 0.
