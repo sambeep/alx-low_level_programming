@@ -1,20 +1,20 @@
 #include "main.h"
 /**
-* * main - prints "_putchar"
-*
-* Return: 0*
-*
+* main - main block
+* Description: print _putchar as out put
+* Return: 0
 */
 int main(void)
 {
- _putchar(_);
-_putchar(p);
-_putchar(u);
-_putchar(t);
-_putchar(c);
-_putchar(h);
-_putchar(a);
-_putchar(r);
+char a[] = "_putchar";
+int i;
+/* while loop*/
+i = 0;
+while (a[i] != 0)
+{
+_putchar(a[i]);
+i++;
+}
 _putchar(n);
 return (0);
 }
