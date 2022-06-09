@@ -1,17 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-
-/**
-* main - check the code.
-*
-* Return: Always 0.
-*/
-int main(){
+int main()
+{
 int _isupper(int c)
 {
 if (c <= 65 && c >= 90)
-return (1);
+
+_putchar(1);
 else
-return (0);
+_putchar (0);
 }
 }
