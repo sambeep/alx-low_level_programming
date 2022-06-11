@@ -6,6 +6,7 @@
  */
 
 void print_number(int n)
+
 {
 	return (0);
 }
