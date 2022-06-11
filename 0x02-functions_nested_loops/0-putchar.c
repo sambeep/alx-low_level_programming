@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * main - main block
- * Description: print _putchar as out put
- * Return: 0
+ * main - Print "Holberton"
+ * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
-	char a[] = "_putchar";
-	int i;
+	int i = 0;
 	
-	/* while loop*/
-	i = 0;
-	while (a[i] != 0)
+	char name_of_school[] = "Holberton";
+	
+	while (i < 9)
 	{
-		_putchar(a[i]);
+		_putchar(name_of_school[i]);
 		i++;
 	}
-	_putchar (n);
+	_putchar('\n');
+	
 	return (0);
 }
