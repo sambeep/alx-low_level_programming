@@ -1,32 +1,21 @@
 #include <stdio.h>
 
-#include <unistd.h>
-
-/**
-
- * main - Entry point
-
- * Description: prints lowercase alphabets
-
- * Return: Always 0 (success)
-
+/**main - Prints some letters of alphabet
+ * Return: Always (Success)
  */
 
 int main(void)
 
 {
-int ch;
-
-for (ch = a; ch <= z; ch++)
-{
-if (ch != e && ch != q)
-{
-putchar(ch);
-}
-else
-{
-}
-}
-putchar(n);
-return (0);
+	char c;
+	
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+	}
+	putchar('\n');
+	return (0);
 }
