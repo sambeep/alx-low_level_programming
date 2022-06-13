@@ -1,24 +1,20 @@
 #include <stdio.h>
 
-#include <unistd.h>
-
 /**
-
- * main - Entry point
-
- * Description: prints char below 10
-
- * Return: Always 0 (success)
-
+ * main - Prints the numbers since 0 to 9
+ * Return: Always (Success)
  */
 
 int main(void)
+
 {
-int a;
-for (a = 0; a < 10; a++)
-{
-putchar(a + 0);
-}
-putchar(n);
-return (0);
+	int n;
+	
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
+	
+	putchar('\n');
+	return (0);
 }
