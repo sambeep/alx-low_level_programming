@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Prints a serie of numbers
- * Return: Always (Success);
+ * main - prints numbers
+ * Description: prints all possible combinations of single-digit numbers
+ * Return: 0
  */
-
 int main(void)
-
 {
-	int c;
-	
-	for (c = '0'; c <= '9'; c++)
+	int i = '0';
+
+	while (i <= '9')
 	{
-		putchar(c);
-		if (c != '9')
+		putchar(i);
+		if (i != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		++i;
 	}
-	
 	putchar('\n');
-	
 	return (0);
 }
