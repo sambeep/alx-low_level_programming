@@ -1,20 +1,20 @@
 #include <stdio.h>
-
-/**main - Prints some letters of alphabet
- * Return: Always (Success)
+/**
+ * main - printing alphabets in lowercase
+ * Description: program that prints the alphabet in lowercase
+ * Return: 0
  */
-
 int main(void)
-
 {
-	char c;
-	
-	for (c = 'a'; c <= 'z'; c++)
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		if (c != 'e' && c != 'q')
+		if (c != 'q' && c != 'e')
 		{
 			putchar(c);
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
