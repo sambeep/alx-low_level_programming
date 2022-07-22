@@ -1,22 +1,19 @@
 #include "main.h"
+
 /**
- * main - Print "Holberton"
- * Return: Always 0 (Success)
+ * main - prints a string of characters
+ * Description: prints _putchar, followed by a new line
+ * Return: 0
  */
-
 int main(void)
-
 {
-	int i = 0;
-	
-	char name_of_school[] = "Holberton";
-	
-	while (i < 9)
+	char a[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(name_of_school[i]);
-		i++;
+		_putchar(a[i]);
 	}
 	_putchar('\n');
-	
 	return (0);
 }
